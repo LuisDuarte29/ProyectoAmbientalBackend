@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5178") // Cambia esta URL si es necesario
+            policy.WithOrigins("http://localhost:5175") // Cambia esta URL si es necesario
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
